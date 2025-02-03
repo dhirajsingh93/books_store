@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment_details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="heads">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo" />
+                </div>
+                <div class="menu">
+                    <a href="#menu" class="openicon">&#9776;</a>
+                    <div id="menu">
+                        <div class="menu-inner">
+                            <a href="#" class="closeicon">&#x2715;</a>
+                            <ul>
+                                <li><a href="index.html" target="_self"  style="color:rgba(225, 33, 8, 0.958);">Home</a></li>
+                                <li><a href="usersprofile.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">User-Profile</a></li>
+                                <li><a href="catalogs.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">Cata_logs</a></li>
+                                <li><a href="payments.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">Payments Details</a></li>
+                                <li><a href="cart.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">Cart </a></li>
+                                <li><a href="Aboutsus.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">Abouts US</a></li>
+                                <li><button class="login"><a href="user-login.html "  target="_blank">login_now</a></button></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <h1 align="center" style="font-size: 36px; margin-top: 30px;"> Payments Details</h1>
+    <div class="container">
+        
+        <form id="payment-form">
+            <label for="card-name"><i class="fas fa-user"></i> Cardholder Name</label>
+            <input type="text" id="card-name" placeholder="Dhiraj Singh" required>
+
+            <label for="card-number"><i class="fas fa-credit-card"></i> Card Number</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9012 3456" maxlength="19" required>
+
+            <label for="expiry-date"><i class="far fa-calendar-alt"></i> Expiry Date</label>
+            <input type="text" id="expiry-date" placeholder="MM/YY" maxlength="5" required>
+
+            <label for="cvv"><i class="fas fa-lock"></i> CVV</label>
+            <input type="text" id="cvv" placeholder="123" maxlength="3" required>
+
+            <button type="submit"><i class="fas fa-shopping-cart"></i> Pay Now</button>
+        </form>
+        <p id="payment-status"></p>
+    </div>
+    <br><br>
+    <footer>
+        <div class="container">
+            <div class="foots">
+                <div class="col-foot">
+                    <h2>Abouts Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, assumenda, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+
+                </div>
+                <div class="col-foot">
+   
+                <h2>Opening timing</h2>
+    
+            <p>Monday-Friday ---- 10:00-8.00</p>
+            <br>
+            <p>Sturday ---- 12:00-8.00</p>
+            <br>
+            <p>Sunday ---Closed</p>
+                </div>
+                <div class="col-foot">
+                    <h2>Contact us</h2>
+                    <ul class="contactus">
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, soluta!
+                        </li>
+                        <li>infotech@E-Commerce.com</li>
+                        <li>9354910181</li>
+                        <li>@copy-right by DHIRAJ Singh</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

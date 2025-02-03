@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Dhiru</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+       
+       .about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('images/background.jpg') no-repeat center center/cover;
+}
+
+
+.about-title {
+    font-size: 46px;
+    font-weight: bold;
+    color: #000;
+}
+
+.about-title span {
+    color: #8B1D74;
+}
+
+.about-subtitle {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0 40px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid #8B1D74;
+}
+
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 20px;
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    background: #8B1D74;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    background: #A52A7A;
+}
+
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+    </style>
+</head>
+
+<body>
+    <!-- Develop static pages (using only HTML) of an online book store, the website should consist the following pages, home page, books catalog,  payment by credit card, order confirmation. -->
+    <header>
+        <div class="container">
+            <div class="heads">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo" />
+                </div>
+                <div class="menu">
+                    <a href="#menu" class="openicon">&#9776;</a>
+                    <div id="menu">
+                        <div class="menu-inner">
+                            <a href="#" class="closeicon">&#x2715;</a>
+                            <ul>
+                                <li><a href="index.html" target="_self"  style="color:rgba(225, 33, 8, 0.958);">Home</a></li>
+                                <li><a href="usersprofile.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">User-Profile</a></li>
+                                <li><a href="catalogs.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">Cata_logs</a></li>
+                                <li><a href="payments.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">Payments Details</a></li>
+                                <li><a href="cart.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">Cart </a></li>
+                                <li><a href="Aboutsus.html" target="_blank"  style="color:rgba(225, 33, 8, 0.958);">Our Library</a></li>
+                                <li><button class="login"><a href="user-login.html "  target="_blank">login_now</a></button></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="w-100">
+        <img src="images/slider.jpg" class="slider" alt="Slider Image" />
+    </div>
+  
+    
+    
+
+    <section class="about-section">
+    <h1 class="about-title">About Us</h1>
+    <p class="about-subtitle">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis animi commodi eum rerum aliquid. Voluptatem rerum ipsa ipsam aut delectus!
+    </p>
+    <div class="about-container">
+        <div class="about-content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe placeat, vitae aliquam alias temporibus nobis repudiandae excepturi? Odit labore asperiores tempore deserunt libero aut deleniti vel enim esse fugit cumque, quis dicta! Laborum amet voluptatum tempore numquam saepe, eius unde labore cum dolorem sunt maiores earum facere consequuntur. Fugiat, consequatur suscipit nam magni minima.
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quisquam doloribus rem corrupti quibusdam reprehenderit quis dolorum porro mollitia. Accusantium asperiores numquam quas ullam animi? Lorem ipsum dolor sit.
+            </p>
+            <button class="read-more">Read More</button>
+        </div>
+        <div class="about-image">
+            <img src="images/about.png" alt="About Image">
+        </div>
+    </div>
+</section>
+<!-- libary -->
+<section class="about-section">
+    <h1 class="about-title">Our Library</h1>
+    <p class="about-subtitle">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis animi commodi eum rerum aliquid. Voluptatem rerum ipsa ipsam aut delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sit cum odio. Rerum, atque! Quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, perferendis.
+    </p>
+<img src="images/library.jpg" alt="" style="width: 100%; height: 90vh; border-radius: 12px;">
+<button class="read-more" style="padding: 20px; height: 60px; width: 360px; font-size: 20px;">Read More</button>
+<br>
+<br>
+<hr>
+<!-- our books -->
+
+<section class="about-section">
+    <h1 class="about-title">Our Books</h1>
+    <p class="about-subtitle">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis animi commodi eum rerum aliquid. Voluptatem rerum ipsa ipsam aut delectus
+    </p>
+    <section class="catalog">
+        <div class="book">
+          <img src="images/ramayan.jpeg" alt="Book 1">
+          <h2>Ramayan</h2>
+          <p>Author: Valmiki</p>
+          <p>Price: $19.99</p>
+        </div>
+        <div class="book">
+            <img src="images/bible.jpg" alt="Book 2">
+            <h2>Book Title 2</h2>
+            <p>Author: Author 2</p>
+            <p>Price: $19.99</p>
+            
+          </div>
+          <div class="book">
+            <img src="images/ramayan.jpeg" alt="Book 3">
+            <h2>Book Title 3</h2>
+            <p>Author: Author 3</p>
+            <p>Price: $19.99</p>
+           
+          </div>
+          <div class="book">
+            <img src="images/ramayan.jpeg" alt="Book 3">
+            <h2>Book Title 3</h2>
+            <p>Author: Author 3</p>
+            <p>Price: $19.99</p>
+            
+          </div>
+          <div class="book">
+            <img src="images/ramayan.jpeg" alt="Book 3">
+            <h2>Book Title 3</h2>
+            <p>Author: Author 3</p>
+            <p>Price: $19.99</p>
+          </div>
+           <div class="book">
+            <img src="images/ramayan.jpeg" alt="Book 3">
+            <h2>Book Title 3</h2>
+            <p>Author: Author 3</p>
+            <p>Price: $19.99</p>
+          </div>
+
+    </section>
+
+<!-- <contact us></contact> -->
+<section class="about-section">
+    <h1 class="about-title">Our Books</h1>
+    <p class="about-subtitle">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis animi commodi eum rerum aliquid. Voluptatem rerum ipsa ipsam aut delectus
+    </p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28085.27329320563!2d77.320955!3d28.3691525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdc71f6e9f557%3A0xeb301eec9ff18517!2sJ.C.%20Bose%20University%20of%20Science%20and%20Technology%2C%20YMCA%20(Formerly%20YMCA%20UST)!5e0!3m2!1sen!2sin!4v1738558225051!5m2!1sen!2sin" width="100%" height="560" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+
+
+    <footer style="margin-top: -45px;" >
+        <div class="container">
+            <div class="foots">
+                <div class="col-foot">
+                    <h2>Abouts Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, assumenda, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+
+                </div>
+                <div class="col-foot">
+   
+                <h2>Opening timing</h2>
+    
+            <p>Monday-Friday ---- 10:00-8.00</p>
+            <br>
+            <p>Sturday ---- 12:00-8.00</p>
+            <br>
+            <p>Sunday ---Closed</p>
+                </div>
+                <div class="col-foot">
+                    <h2>Contact us</h2>
+                    <ul class="contactus">
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, soluta!
+                        </li>
+                        <li>infotech@E-Commerce.com</li>
+                        <li>9354910181</li>
+                        <li>@copy-right by DHIRAJ Singh</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+
+</html>

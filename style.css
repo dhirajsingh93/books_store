@@ -1,0 +1,345 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgba(12, 12, 12, 0.958);
+}
+
+a {
+    text-decoration: none;
+}
+
+:target {
+    display: block !important;
+}
+
+header {
+    box-shadow: 0px 0px 6px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.heads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: -20px 0;
+}
+
+.headings{
+    font-size: 48px;
+    color: #111010;
+    margin: 30px;
+    margin-bottom: -30px;
+}
+.logo img {
+    max-width: 100px;
+    height: 90px;
+    margin-left: -220px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin: 0;
+}
+
+.menu ul li {
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+.menu ul li:hover {
+    color: rgb(3, 15, 251);
+}
+
+.openicon,
+.closeicon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.slider {
+    object-fit: cover;
+    width: 100%;
+    height: 960px;
+    object-position: center;
+}
+
+.login{
+    position: relative;
+    margin-top: -12px;
+    padding: 10px;
+    width: 240px;
+    margin-left: 120px;
+    font-weight: 500;
+    background-color: rgba(224, 155, 15, 0.981);
+    font-size: 26px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(223, 132, 13);
+    font-size: 26px;
+}
+
+/*login*/
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1.4em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button {
+    padding: 12px;
+    background-color: #3301ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+form button:hover {
+    background-color: rgba(78, 46, 219, 0.396);
+    color: #111010;
+    font-size: 32px;
+}
+
+/*cart join css*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+}
+
+table th, table td {
+    padding: 25px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #525151;
+    color: #fff;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table td button {
+    padding: 8px 8px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* table td button:hover {
+    background-color: #c0392b;
+} */
+
+/*users-dasboard*/
+
+.profile-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+}
+.profile-card img {
+    width: 340px;
+    height: 340px;
+    border-radius: 30%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+.profile-card h2 {
+    margin: 10px 0;
+    color: #000;
+    font-weight: 600;
+    font-size: 32px;
+}
+.profile-card p {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.profile-card .links, .profile-card .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills, .education {
+    margin-top: 15px;
+    text-align: left;
+}
+.skills ul, .education ul {
+    list-style: none;
+    padding: 0;
+}
+.skills li, .education li {
+    background: #e0e0e0;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.hed h1{ 
+    position: absolute;
+    margin-top: -400px;
+    justify-content: center;
+    margin-left: 700px;
+    color: red;
+    
+}
+
+/*add catalogs styles css*/
+header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .catalog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+  }
+  
+  .book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 240px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book:hover {
+    transform: translateY(-10px); /* Moves the book slightly upwards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhances the shadow on hover */
+  }
+  
+  .book img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .book h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .book p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .buttonadd{
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  /*orders pages css
+  */
+  input:focus {
+    border-color: #f73403;
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+button i {
+    margin-right: 8px;
+}
+
+
+footer {
+    background: #f2ffe4;
+    padding: 40px 0px;
+    margin-bottom: -220px;
+}
+
+.foots {
+    padding: 20px 0px 20px 20px;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 0 auto;
+
+}
+
+.foots p {
+    padding-right: 60px;
+    line-height: 28px;
+
+}
+
+.foots table td {
+    padding: 10px 0;
+
+}
+
+.col-foot h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.col-foot h2 li {
+    margin-bottom: 15px;
+    list-style-type: decimal;
+}
